@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var User = require('../model/user');
-var regdata = require('../model/test');
+var regdata = require('../model/user');
 //  เปิดหน้าแรก
 router.get('/', function(req, res, next) {
     res.render('index', { title: 'Express' });
