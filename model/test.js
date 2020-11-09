@@ -1,18 +1,19 @@
-var mongoose = require('mongoose');
-var url = 'mongodb://localhost:27017/Projectlogin';
-var mongodb = require('mongod')
+// var mongoose = require('mongoose');
+// var url = 'mongodb://localhost:27017/Projectlogin';
+// var mongodb = require('mongod')
 
-mongoose.connect(url, {
-    useNewUrlParser: true
-});
-// var regdata = mongoose.model('regdata', new Schema({
+// // Connect database
+// mongoose.connect(url, {
+//     useNewUrlParser: true
+// });
+// var db = mongoose.connection
+// db.on('error', console.error.bind(console, 'Mongodb connect error'));
+
+// // Create Schema name User
+
+// const userSchema = mongoose.Schema({
 //     username: { type: String },
 //     email: { type: String },
 //     password: { type: String }
-// }))
-const userSchema = mongoose.Schema;
-module.exports = mongoose.model('regdata', userSchema({
-    username: { type: String },
-    email: { type: String },
-    password: { type: String }
-}));
+// });
+// module.exports = mongoose.model('User', userSchema);
