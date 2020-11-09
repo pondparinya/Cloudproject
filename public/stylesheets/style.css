@@ -1,9 +1,14 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
+<<<<<<< HEAD
+    color: #00B7FF;
+}
+=======
 
   
 }
+>>>>>>> e3354ecf89fe2e6342c2eb1b613c882120349b58
